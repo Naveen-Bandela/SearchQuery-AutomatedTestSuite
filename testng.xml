@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="false">
+	<parameter name="browser" value="chrome" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<!--<class name="com.assignment_testCases.TC_001_SearchResults" />-->
+			<!--<class name="com.assignment_testCases.TC_002_AutosuggestionResult" />-->
+			<class name="com.assignment_testCases.TC_003_SearchQueryPersistence" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
